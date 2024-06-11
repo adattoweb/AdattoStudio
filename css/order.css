@@ -1,0 +1,76 @@
+.content {
+	width: 100vw;
+	padding: 20px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.order__header {
+	font-weight: 500;
+	font-size: 35px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.order__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #39393F;
+	width: 400px;
+	padding: 20px 0px;
+}
+.order__inputs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+input::-webkit-input-placeholder {
+	color: #A4A4A4;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+input {
+	border-radius: 7px;
+	background: rgba(0, 0, 0, 0.40);
+	backdrop-filter: blur(2px);
+	color: #ffffff;
+	border-width: 0px;
+	padding: 20px 25px;
+	font-size: 20px;
+	width: 300px;
+	transition: ease 0.3s all;
+}
+
+input:focus {
+	border: none;
+	box-shadow: 0px 0px 64.008px 0px #244745;
+	background: rgba(0, 0, 0, 0.15);
+}
+
+.input2 {
+	margin-top: 20px;
+}
+input,
+textarea {
+	outline: none;
+	border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+section {
+	width: 300px;
+	padding: 20px 25px;
+}
